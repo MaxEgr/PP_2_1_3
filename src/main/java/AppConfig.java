@@ -15,7 +15,7 @@ public class AppConfig {
     @Scope("prototype")
     public Cat getCat() {
         Cat cat = new Cat();
-        cat.setMessageCat("Cat");
+        cat.setMessageCat("Cat say meow!");
         return cat;
     }
 }
